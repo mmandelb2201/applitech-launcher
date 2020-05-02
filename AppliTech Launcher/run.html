@@ -1,0 +1,30 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Launch Screen</title>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-database.js"></script>
+    <script type="text/javascript" src="./init.js"></script>
+    <link rel="stylesheet" href="run.css">
+</head>
+<body id="body">
+    <img src="./images/indieHubLogo.png" height="150px" width="280px" class="logo"/>
+    <div class="dropdown">
+        <f class="hello">Welcome,</f>
+        <un class="username" id="afterWelcomeLabel"></un>
+        <img id="profilePic" class="profilePicture"/>
+        <div class="dropdown-content">
+            <a href="#" id="signOutButton">Logout</a>
+        </div>
+    </div>
+    <script defer type="text/javascript" src="./run.js"></script>
+</body>
+</html>

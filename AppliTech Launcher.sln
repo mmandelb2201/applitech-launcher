@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "AppliTech Launcher", "AppliTech Launcher\AppliTech Launcher.njsproj", "{5E77923F-B934-4545-84B8-0F40514E6294}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E77923F-B934-4545-84B8-0F40514E6294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E77923F-B934-4545-84B8-0F40514E6294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E77923F-B934-4545-84B8-0F40514E6294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E77923F-B934-4545-84B8-0F40514E6294}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA6F0702-90C4-42F8-9BFE-85CFC419B1F0}
+	EndGlobalSection
+EndGlobal

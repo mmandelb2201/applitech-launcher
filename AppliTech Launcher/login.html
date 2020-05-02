@@ -1,0 +1,66 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-database.js"></script>
+    <script type="text/javascript" src="./init.js"></script>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header class="page-header">
+        <div class="website-banner"></div>
+        <nav class="header-nav">
+            <ul>
+            </ul>
+        </nav>
+    </header>
+    <div class="middle-container">
+        <div class="border-content border-content-left">
+
+        </div>
+        <div class="center-content">
+            <div class="info-content">
+
+                <form action="process.php" method="POST" class="signup-form">
+                        <img src="./images/indieHubLogo.png" style="width:250px;height:141px" />
+                    <div class="form-row">
+                        <loginHeader>Login To Your AppliTech Account</loginHeader>
+                    </div>
+                    <div class="form-row">
+                        <label for="email"></label>
+                        <input id="email" placeholder="email" name="email" type="text">
+                    </div>
+                    <div class="form-row">
+                        <label for="passowrd"></label>
+                        <input id="password" placeholder="password" name="password" type="password">
+                    </div>
+                    <div class="form-row">
+                    </div>
+                    <input type="button" value="Submit" id="loginButton">
+                    <div class="form-row">
+                        <errorLabel id="errorLabel"></errorLabel>
+                    </div>
+                </form>
+            </div>
+            <div class="info-content">
+
+            </div>
+        </div>
+        <div class="border-content border-content-right">
+
+        </div>
+    </div>
+    <footer class="page-footer">
+    </footer>
+    <script defer type="text/javascript" src="./login.js"></script>
+</body>
+</html>

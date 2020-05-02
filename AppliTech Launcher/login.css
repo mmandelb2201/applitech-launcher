@@ -1,0 +1,54 @@
+html {
+    background-color: #FFFFFF;
+}
+
+loginHeader {
+    font-family: Verdana;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0px;
+}
+
+body {
+    margin-top: 5px;
+    margin-left: 50px;
+}
+input[type=text]{
+    outline:none;
+    width: 240px;
+    border: none;
+    font-size: 15px;
+    border-bottom: 2px solid black;
+}
+input[type=password] {
+    outline: none;
+    width: 240px;
+    border: none;
+    font-size: 15px;
+    border-bottom: 2px solid black;
+}
+
+form {
+    position: center;
+    
+    display : grid;
+    grid-gap : 10px
+}
+input[type=button] {
+    color:white;
+    font-weight: bold;
+    font-family: Verdana;
+    object-fit: cover;
+    background-color: red;
+    width: 240px;
+    height: 35px;
+    border: none;
+}
+errorLabel {
+    font-family: Verdana;
+    color: red;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0px;
+}

@@ -1,0 +1,161 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+
+@mmandelb2201
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+mmandelb2201
+/
+IndieHub
+Private
+2
+00
+Code Issues 0 Pull requests 0 Actions Projects 0 Security Insights Settings
+IndieHub/IndieHub/IndieHub/prototype.css
+@mmandelb2201 mmandelb2201 working sign up and login
+15f4301 on Mar 8
+130 lines (102 sloc) 2.01 KB
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Website Banner*/
+.website-banner {
+    background-color: #000;
+    height: 220px;
+    display: flex;
+}
+
+.left-banner-container {
+}
+
+.right-banner-container {
+}
+
+.left-banner-container, .right-banner-container {
+    background-color: #000;
+    width: 25%
+}
+
+.center-banner-container {
+    background-color: #fff;
+    width: 50%;
+}
+
+
+
+
+/*Navigation Bar*/
+.header-nav {
+    position: block;
+}
+
+    .header-nav ul {
+        display: flex;
+        justify-content: flex-start;
+        list-style-type: none;
+        background: #d8d6d6;
+    }
+
+    .header-nav > ul > li,
+    .account-links li {
+        font-size: 17px;
+        padding: 20px;
+    }
+
+        .header-nav > ul > li > a:link,
+        a:visited {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .header-nav > ul > li:hover {
+            background: #ccc;
+        }
+
+.signup {
+    margin-left: auto;
+}
+
+/*Navigation Bar*/
+
+/* Middle Content*/
+.middle-container {
+    display: flex;
+    justify-content: center;
+}
+
+.border-content {
+    background: #000;
+    height: 1400px;
+    width: 25%;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #fff;
+    height: 1400px;
+    width: 50%;
+}
+
+.info-content {
+    background: #4d4d4d;
+    height: 500px;
+    margin: 0 40px;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-content-pic {
+    background-color: antiquewhite;
+    height: 60%;
+    width: 25%;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 5px;
+}
+
+.info-content-desc {
+    background-color: antiquewhite;
+    height: 60%;
+    width: 55%;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 5px;
+}
+/* Middle Content*/
+
+/* Bottom*/
+.page-footer {
+    background: #2e2e2e;
+    height: 200px;
+}
+
+
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

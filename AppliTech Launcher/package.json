@@ -1,0 +1,16 @@
+{
+  "name": "appli-tech-launcher",
+  "version": "0.0.0",
+  "description": "AppliTech Launcher",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron."
+  },
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "electron": "^8.2.3",
+    "firebase": "^7.14.1"
+  }
+}
